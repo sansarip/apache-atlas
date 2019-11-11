@@ -1,0 +1,7 @@
+.git
+packages/
+Makefile
+README.md
+azure-pipelines.yml
+*.patch
+target/apache-atlas-sources-2.0.0/
