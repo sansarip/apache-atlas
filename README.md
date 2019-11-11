@@ -7,6 +7,10 @@ Apache Atlas provides open metadata management and governance capabilities for o
 # Disclaimer
 This is a development deployment  and should not be used for production. For production, you'd want to deploy your database and indexing service (i.e. HBase and Solr) separately and then configure Atlas to utilize them.
 
+# Dockerhub
+
+https://hub.docker.com/r/sansarip/apache-atlas
+
 # Building Atlas
 
 If you want to build the Atlas image then you must first build the sources. Doing so is simple enough, just run `sudo make build`. After that operation completes, you can initiate a simple docker build as follows, `docker build . -t sansarip/apache-atlas`.
